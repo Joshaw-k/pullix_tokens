@@ -6,12 +6,15 @@ import { motion } from "framer-motion";
 const Benefits = () => {
   return (
     <div className="my-24 px-3">
-      <motion.div animate={{ y: 0 }} transition={{ repeat: "infinity" }}>
+      <motion.div
+        animate={{ y: [-50, 0] }}
+        transition={{ duration: 6, repeat: "Infinity" }}
+      >
         <Image
           src="/ic_token_3d.png"
           width={60}
           height={60}
-          className="mx-auto lg:scale-125"
+          className="mx-auto lg:scale-125 mb-5"
         />
       </motion.div>
       <div className="grid gap-y-4 mt-3">
