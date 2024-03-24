@@ -11,10 +11,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        {children}
-      </body>
+      </head>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
