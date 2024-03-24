@@ -44,13 +44,13 @@ const Hero = () => {
         </div>
         <div className="grid lg:grid-cols-3 w-72 lg:w-[900px] mx-auto gap-y-6 lg:gap-x-4">
           <Link
-            href="/wallet/connectWallet/"
+            href="/wallet/"
             className="border border-[#B66B14] p-4 rounded-lg flex justify-center items-center gap-x-3 hover:text-white hover:bg-[#B66B14] cursor-pointer"
           >
             <p className="text-white text-center font-semibold">Staking</p>
           </Link>
           <Link
-            href="/wallet/connectWallet/"
+            href="/wallet/"
             className="border border-[#B66B14] p-4 rounded-lg flex justify-center items-center gap-x-3 hover:text-white hover:bg-[#B66B14] cursor-pointer"
           >
             <p className="text-white text-center font-semibold">
@@ -58,7 +58,7 @@ const Hero = () => {
             </p>
           </Link>
           <Link
-            href="/wallet/connectWallet/"
+            href="/wallet/"
             className="border border-[#B66B14] p-4 rounded-lg flex justify-center items-center gap-x-3 hover:text-white hover:bg-[#B66B14] cursor-pointer"
           >
             <p className="text-white text-center font-semibold">View Chart</p>

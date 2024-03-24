@@ -160,7 +160,7 @@ export default function page() {
                     />
                     <div className="flex font-urbanist justify-between items-center mt-5">
                       <Link
-                        href="/tokens"
+                        href="/"
                         className="bg-red-500 py-5 w-[48%] text-center font-bold text-white rounded-full"
                       >
                         Cancel

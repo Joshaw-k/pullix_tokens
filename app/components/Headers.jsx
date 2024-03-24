@@ -9,7 +9,7 @@ const Headers = () => {
       <Announcement />
       <div className="px-5 mt-2 md:mt-6">
         <div className="flex justify-between items-center">
-          <Link href="/tokens">
+          <Link href="/">
             <Image
               src="/ic_logo.svg"
               alt="pullix_logo"

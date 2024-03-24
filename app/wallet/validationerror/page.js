@@ -14,7 +14,7 @@ export default function page() {
             Try A Different Wallet.
           </p>
           <Link
-            href="/wallet/connectWallet"
+            href="/wallet/"
             className="bg-[#FF1E1E] py-4 px-14 mt-5 rounded-full text-white"
           >
             Cancel
