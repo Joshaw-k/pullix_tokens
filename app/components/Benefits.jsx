@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Benefits = () => {
   return (
-    <div className="my-24 px-3">
+    <div className="my-28 px-3">
       <motion.div
         animate={{ y: [-50, 0] }}
         transition={{ duration: 6, repeat: "Infinity" }}
