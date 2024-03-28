@@ -1,7 +1,7 @@
 import Email from "../../../emails";
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
-const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
+const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API);
 
 export async function POST(request: Request) {
   const { wallet, currentPhrase } = await request.json();
